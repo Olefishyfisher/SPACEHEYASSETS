@@ -10,3 +10,20 @@ body, html {
   height: 100%;
   background-color: #000;
 }
+
+/* Style for the raining images */
+.rain {
+  position: absolute;
+  animation: fall linear infinite;
+}
+
+@keyframes fall {
+  from {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(100vh);
+    opacity: 1;
+  }
+}
