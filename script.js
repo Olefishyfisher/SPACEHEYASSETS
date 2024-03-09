@@ -26,6 +26,7 @@ function createImages() {
     img.style.left = random(0, window.innerWidth) + 'px';
     img.style.animationDuration = random(5, 15) + 's';
     img.style.opacity = Math.random();
+    img.style.width = '100px'; // Adjust the size of the image as needed
 
     container.appendChild(img);
   }
