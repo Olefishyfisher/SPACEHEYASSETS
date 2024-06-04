@@ -5,6 +5,7 @@ const NUM_IMAGES = 20;
 const imageUrls = [
   "https://static.independent.co.uk/s3fs-public/thumbnails/image/2017/09/22/12/riverdale-archie.jpg?quality=75&width=1200&auto=webp",
   "https://m.media-amazon.com/images/I/51P-b3wx2AL._AC_UF1000,1000_QL80_.jpg"
+  "https://media.licdn.com/dms/image/C4E03AQE2aTzDdt9JXA/profile-displayphoto-shrink_200_200/0/1546545766877?e=2147483647&v=beta&t=VTho-wb5EnHnWRPWpjSDIMftbllUmM-yy55Pc_PqJR4"
 ];
 
 // Function to generate a random number between min and max
